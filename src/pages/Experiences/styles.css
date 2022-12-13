@@ -1,0 +1,15 @@
+.exp_container {
+    @apply bg-offWhite h-[calc(100vh-50px)] relative p-5 flex flex-col;
+}
+.exp_flexer {
+    @apply flex flex-1;
+}
+.exp_contentContainer {
+    @apply w-[100%] sm:w-[100%] md:w-[100%] lg:w-[50%];
+}
+.exp_imgWrapper {
+    @apply flex-1 h-full ml-[5%] hidden sm:hidden md:hidden lg:block;
+}
+.exp_img {
+    @apply h-full w-full;
+}

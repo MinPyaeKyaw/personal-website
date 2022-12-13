@@ -1,0 +1,12 @@
+.contact_container {
+    @apply bg-offWhite h-[calc(100vh-50px)] relative p-5;
+}
+.contact_bird {
+    @apply absolute top-[30%] left-0 z-20 w-[50%] sm:w-[40%] md:w-[25%];
+}
+.contact_content {
+    @apply flex items-end justify-end flex-col font-bold text-sm sm:text-xl md:text-2xl lg:text-3xl h-fit absolute bottom-[15%] right-5;
+}
+.contact_list {
+    @apply text-right mb-4
+}

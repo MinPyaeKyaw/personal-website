@@ -1,0 +1,7 @@
+.title_container {
+    @apply mt-[5%] flex justify-start items-center font-bold text-xl;
+}
+
+.title_rectangle {
+    @apply w-5 mr-2;
+}

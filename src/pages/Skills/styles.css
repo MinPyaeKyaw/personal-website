@@ -1,0 +1,27 @@
+.skill_container {
+    @apply relative px-5 h-[calc(100vh-50px)] flex flex-col bg-offWhite;
+}
+.skill_title {
+    @apply h-auto mt-5;
+}
+.skill_flexer {
+    @apply pb-5 flex-1 flex flex-col-reverse sm:flex-col-reverse md:flex-row;
+}
+.skill_coder {
+    @apply absolute bottom-0 w-full;
+}
+.skill_imgWrapper {
+    @apply w-[35%] relative mr-[15%] h-full hidden sm:hidden md:block;
+}
+.skill_itemContainer {
+    @apply flex justify-start mt-5 items-center;
+}
+.skill_content {
+    @apply flex-1 h-full flex font-bold items-start sm:items-start md:items-end text-sm sm:text-sm md:text-base;
+}
+.skill_items {
+    @apply flex-1;
+}
+.skill_contentLogo {
+    @apply w-[30px] h-[30px] mr-2;
+}

@@ -1,0 +1,11 @@
+.transitor_container {
+    @apply w-full relative overflow-hidden h-screen;
+}
+
+.transitor_transitor {
+    @apply w-full h-screen left-0 top-0 absolute z-[300] bg-offWhite;
+}
+
+.transitor_liner {
+    @apply h-screen absolute z-[310] bg-black;
+}

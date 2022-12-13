@@ -1,0 +1,31 @@
+@import "tailwindcss/base";
+
+@layer base {
+    @font-face {
+        font-family: myFont;
+        src: url('./assets/fonts/cour.ttf');
+    }
+    html {
+        font-family: myFont;
+    }
+    .container {
+        @apply w-full h-screen overflow-hidden bg-offWhite;
+    }
+    .pageContainer {
+        @apply w-full h-[calc(100vh-50px)] bg-offWhite;
+    }
+}
+
+@import "tailwindcss/components";
+@import "./App.css";
+@import "./components/MyTerminal/styles.css";
+@import "./components/TransitionAnimator/styles.css";
+@import "./pages/Contact/styles.css";
+@import "./pages/Skills/styles.css";
+@import "./pages/Home/styles.css";
+@import "./pages/Experiences/styles.css";
+@import "./components/Title/styles.css";
+@import "./components/Exp/styles.css";
+@import "./routes/styles.css";
+
+@import "tailwindcss/utilities";

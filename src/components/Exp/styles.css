@@ -1,0 +1,6 @@
+.exp_position {
+    @apply font-bold mt-10;
+}
+.exp_desc {
+    @apply mt-2;
+}
